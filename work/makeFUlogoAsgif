@@ -1,5 +1,6 @@
-#!/bin/bash
+#!/bin/zsh
  name='FUlogo';end='0039'
  name='Horseshoes';end='0059'
+ name='Test1';end='0059'
  echo $name
  convert -delay 300 GoL-0000.png -delay 40 GoL-{0001..0059}.png $name.gif 
